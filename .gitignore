@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.env
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# Docker
+*.log
+docker-compose.override.yml
+
+# Environment files
+.env
+.env.*
+
+# Migrations
+db.sqlite3
+migrations/
+
+# Node
+node_modules/
+
+# Others
+*.sqlite3
+*.db
+*.bak
+*.swp
+*.swo
+.idea/
