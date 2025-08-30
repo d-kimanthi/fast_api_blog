@@ -1,6 +1,10 @@
 import os
+
+from dotenv import load_dotenv
 from pydantic import BaseModel
 
+# Load environment variables from .env file
+load_dotenv()
 
 class Settings(BaseModel):
     DATABASE_URL: str = os.getenv("DATABASE_URL", "please-provide-db-url")
